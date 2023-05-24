@@ -1,4 +1,4 @@
-package addtwonumber
+package solution
 
 import (
 	"reflect"

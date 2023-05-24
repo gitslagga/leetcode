@@ -1,4 +1,4 @@
-package addtwonumber
+package solution
 
 type ListNode struct {
 	Val  int

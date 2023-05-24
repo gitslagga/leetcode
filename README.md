@@ -2,13 +2,21 @@
 Leetcode solves math problems easily.
 
 
+# Install
+```shell
+cd your-project
+
+go get -u github.com/gitslagga/leetcode
+```
+
+
 # Usage
 
 ```go
 package main
 
 import (
-	solution "github.com/gitslagga/leetcode/twosum"
+	solution "github.com/gitslagga/leetcode/1.two-sum"
 	"log"
 	"reflect"
 )

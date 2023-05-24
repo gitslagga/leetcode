@@ -1,4 +1,4 @@
-package twosum
+package solution
 
 import (
 	"reflect"

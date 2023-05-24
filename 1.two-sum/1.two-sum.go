@@ -1,12 +1,12 @@
-package twosum
+package solution
 
 func TwoSum(nums []int, target int) []int {
-	numsMap := make(map[int]int)
+	hashMap := make(map[int]int)
 	for k, v := range nums {
-		if i, ok := numsMap[target-v]; ok {
+		if i, ok := hashMap[target-v]; ok {
 			return []int{i, k}
 		}
-		numsMap[v] = k
+		hashMap[v] = k
 	}
 	return nil
 }

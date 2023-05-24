@@ -1,4 +1,4 @@
-package solution
+package twosum
 
 import (
 	"reflect"
@@ -19,7 +19,7 @@ func TestTwoSum(t *testing.T) {
 	for k, v := range input {
 		result := TwoSum(v.nums, v.target)
 		if reflect.DeepEqual(result, output[k]) == false {
-			t.Errorf("return wrong result, expect:%d, got:%d", output[k], result)
+			t.Errorf("return wrong result, expect:%v, got:%v", output[k], result)
 		}
 	}
 }

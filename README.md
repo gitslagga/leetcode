@@ -29,8 +29,8 @@ func main() {
 
 Join the group chat and brush the questions together.
 
-![](https://slagga.oss-cn-shanghai.aliyuncs.com/IMG_2693.JPG)
+![](https://slagga.oss-cn-shanghai.aliyuncs.com/group-chat.png)
 
 Welcome to pay attention to my WeChat public account: the game of technology.
 
-![](https://slagga.oss-cn-shanghai.aliyuncs.com/qrcode_for_gh_e8a4b84039c3_258.jpg)
+![](https://slagga.oss-cn-shanghai.aliyuncs.com/media-platform.png)

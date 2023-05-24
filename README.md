@@ -36,8 +36,8 @@ func main() {
 # Leetcode Team
 Welcome to pay attention to my WeChat public account: the game of technology.
 
-![](https://slagga.oss-cn-shanghai.aliyuncs.com/media-platform.png)
+![](https://slagga.top/images/media-platform.png)
 
 Join the group chat and brush the questions together.
 
-![](https://slagga.oss-cn-shanghai.aliyuncs.com/group-chat.png)
+![](https://slagga.top/images/group-chat.png)

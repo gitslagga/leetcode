@@ -62,8 +62,6 @@ func TestAddTwoNumbersExample2(t *testing.T) {
 }
 
 func TestAddTwoNumbersExample3(t *testing.T) {
-	//Input: tmp1 = [9,9,9,9,9,9,9], tmp2 = [9,9,9,9]
-	//Output: [8,9,9,9,0,0,0,1]
 	tmp1, tmp2 := &ListNode{}, &ListNode{}
 	l1, l2 := tmp1, tmp2
 	for i := 0; i < 7; i++ {

@@ -4,12 +4,12 @@ import (
 	"testing"
 )
 
-func TestReverse(t *testing.T) {
-	input := []int{123, -123, 120}
-	expectResult := []int{321, -321, 21}
+func TestMyAtoi(t *testing.T) {
+	input := []string{"42", "   -42", "4193 with words11"}
+	expectResult := []int{42, -42, 4193}
 
 	for k, v := range input {
-		result := Reverse(v)
+		result := MyAtoi(v)
 		if result != expectResult[k] {
 			t.Errorf("return wrong result, expect:%v, got:%v", expectResult[k], result)
 		}

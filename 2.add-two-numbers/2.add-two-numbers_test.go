@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestAddTwoNumbersExample1(t *testing.T) {
+func TestAddTwoNumbers1(t *testing.T) {
 	l1 := &ListNode{
 		Val: 2,
 		Next: &ListNode{
@@ -42,7 +42,7 @@ func TestAddTwoNumbersExample1(t *testing.T) {
 	}
 }
 
-func TestAddTwoNumbersExample2(t *testing.T) {
+func TestAddTwoNumbers2(t *testing.T) {
 	l1 := &ListNode{
 		Val:  0,
 		Next: nil,
@@ -61,7 +61,7 @@ func TestAddTwoNumbersExample2(t *testing.T) {
 	}
 }
 
-func TestAddTwoNumbersExample3(t *testing.T) {
+func TestAddTwoNumbers3(t *testing.T) {
 	tmp1, tmp2 := &ListNode{}, &ListNode{}
 	l1, l2 := tmp1, tmp2
 	for i := 0; i < 7; i++ {

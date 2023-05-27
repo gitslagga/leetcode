@@ -5,10 +5,10 @@ import (
 )
 
 func IsPalindrome(x int) bool {
-	intString := strconv.Itoa(x)
-	n := len(intString)
-	for i := 0; i < len(intString)/2; i++ {
-		if rune(intString[i]) != rune(intString[n-1-i]) {
+	str := strconv.Itoa(x)
+	n := len(str)
+	for i := 0; i < n/2; i++ {
+		if str[i] != str[n-i-1] {
 			return false
 		}
 	}

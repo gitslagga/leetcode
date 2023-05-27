@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestAddTwoNumbersExample1(t *testing.T) {
+func TestLengthOfLongestSubstring(t *testing.T) {
 	input := []string{"abcabcbb", "bbbbb", "pwwkew"}
 	expectResult := []int{3, 1, 3}
 

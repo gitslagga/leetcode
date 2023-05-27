@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestFindMedianSortedArrays1(t *testing.T) {
+func TestLongestPalindrome1(t *testing.T) {
 	s := "babad"
 	expectResult := "bab"
 
@@ -14,7 +14,7 @@ func TestFindMedianSortedArrays1(t *testing.T) {
 	}
 }
 
-func TestFindMedianSortedArrays2(t *testing.T) {
+func TestLongestPalindrome2(t *testing.T) {
 	s := "cbbd"
 	expectResult := "bb"
 

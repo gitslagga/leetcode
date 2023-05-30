@@ -1,36 +1,29 @@
 package solution
 
-var phoneMap map[string]string = map[string]string{
-	"2": "abc",
-	"3": "def",
-	"4": "ghi",
-	"5": "jkl",
-	"6": "mno",
-	"7": "pqrs",
-	"8": "tuv",
-	"9": "wxyz",
-}
-
-var combinations []string
-
 func LetterCombinations(digits string) []string {
-	if len(digits) == 0 {
-		return []string{}
-	}
-	combinations = []string{}
-	backtrack(digits, 0, "")
-	return combinations
-}
+	dic := []string{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
+	res := []string{}
+	var fn func(int, []rune)
+	fn = func(n int, arr []rune) {
+		if len(arr) == len(digits) {
+			if len(arr) > 0 {
+				str := string(arr)
+				res = append(res, str)
+			}
+			return
+		}
 
-func backtrack(digits string, index int, combination string) {
-	if index == len(digits) {
-		combinations = append(combinations, combination)
-	} else {
-		digit := string(digits[index])
-		letters := phoneMap[digit]
-		lettersCount := len(letters)
-		for i := 0; i < lettersCount; i++ {
-			backtrack(digits, index+1, combination+string(letters[i]))
+		for i := n; i < len(digits); i++ {
+			index := int(rune(digits[i]) - '0')
+			runes := []rune(dic[index])
+			for _, v := range runes {
+				arr = append(arr, v)
+				fn(i+1, arr)
+				arr = arr[:len(arr)-1]
+			}
 		}
 	}
+	fn(0, []rune{})
+
+	return res
 }

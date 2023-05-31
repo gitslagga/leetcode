@@ -8,7 +8,7 @@ func ThreeSum(nums []int) [][]int {
 	target := 0
 	sort.Ints(nums)
 	n := len(nums)
-	list := [][]int{}
+	var list [][]int
 
 	for i := range nums {
 		// Remove the duplicates from the nums array.

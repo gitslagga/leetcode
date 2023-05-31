@@ -13,7 +13,7 @@ func TestThreeSum(t *testing.T) {
 	}
 	expectResult := [][][]int{
 		{{-1, -1, 2}, {-1, 0, 1}},
-		{},
+		nil,
 		{{0, 0, 0}},
 	}
 

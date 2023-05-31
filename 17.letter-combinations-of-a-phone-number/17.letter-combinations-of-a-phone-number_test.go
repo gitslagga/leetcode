@@ -9,7 +9,7 @@ func TestLetterCombinations(t *testing.T) {
 	input := []string{"23", "", "2"}
 	expectResult := [][]string{
 		{"ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"},
-		{},
+		nil,
 		{"a", "b", "c"},
 	}
 

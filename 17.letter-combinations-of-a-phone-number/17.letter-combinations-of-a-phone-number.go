@@ -2,7 +2,7 @@ package solution
 
 func LetterCombinations(digits string) []string {
 	dic := []string{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"}
-	res := []string{}
+	var res []string
 	var fn func(int, []rune)
 	fn = func(n int, arr []rune) {
 		if len(arr) == len(digits) {

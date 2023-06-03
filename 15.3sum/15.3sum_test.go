@@ -10,11 +10,13 @@ func TestThreeSum(t *testing.T) {
 		{-1, 0, 1, 2, -1, -4},
 		{0, 1, 1},
 		{0, 0, 0},
+		{-2, 0, 0, 2, 2},
 	}
 	expectResult := [][][]int{
 		{{-1, -1, 2}, {-1, 0, 1}},
 		nil,
 		{{0, 0, 0}},
+		{{-2, 0, 2}},
 	}
 
 	for k, v := range input {

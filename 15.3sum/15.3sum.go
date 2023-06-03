@@ -23,7 +23,9 @@ func ThreeSum(nums []int) [][]int {
 			if sum == target {
 				list = append(list, []int{nums[i], nums[j], nums[k]})
 				j++
-				k--
+				for nums[j-1] == nums[j] && j < k {
+					j++
+				}
 			} else if sum < target {
 				j++
 			} else {

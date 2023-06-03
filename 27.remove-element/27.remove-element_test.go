@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestReverseKGroup(t *testing.T) {
+func TestRemoveElement(t *testing.T) {
 	input := []struct {
 		nums []int
 		val  int

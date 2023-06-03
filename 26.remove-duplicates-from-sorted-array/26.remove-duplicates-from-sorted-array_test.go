@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestReverseKGroup(t *testing.T) {
+func TestRemoveDuplicates(t *testing.T) {
 	input := [][]int{
 		{1, 1, 2},
 		{0, 0, 1, 1, 1, 2, 2, 3, 3, 4},

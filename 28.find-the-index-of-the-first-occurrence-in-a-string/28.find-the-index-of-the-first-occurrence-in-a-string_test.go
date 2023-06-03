@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestReverseKGroup(t *testing.T) {
+func TestStrStr(t *testing.T) {
 	input := []struct {
 		haystack string
 		needle   string

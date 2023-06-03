@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestReverseKGroup(t *testing.T) {
+func TestDivide(t *testing.T) {
 	input := []struct {
 		dividend int
 		divisor  int

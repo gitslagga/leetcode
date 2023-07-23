@@ -37,7 +37,3 @@ func main() {
 Welcome to pay attention to my WeChat public account: the game of technology.
 
 ![](https://slagga.top/images/media-platform.png)
-
-Join the group chat and brush the questions together.
-
-![](https://slagga.top/images/group-chat.png)
